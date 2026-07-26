@@ -1,22 +1,80 @@
 aid: erasca
 name: Erasca
-description: Erasca is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Erasca is a clinical-stage precision oncology company (NASDAQ: ERAS)
+  headquartered in San Diego, California, whose name is its mission: to erase
+  cancer. The company is singularly focused on discovering, developing, and
+  commercializing therapies for RAS- and MAPK pathway-driven cancers. RAS is the
+  most frequently mutated oncogene and the MAPK pathway one of the most
+  frequently altered signaling pathways in cancer, together accounting for
+  roughly five million newly diagnosed patients globally each year. Erasca
+  pursues three complementary therapeutic strategies intended to comprehensively
+  shut down the RAS/MAPK pathway by targeting multiple nodes and cooperative
+  mechanisms in parallel. This API Evangelist profile was surfaced as an a16z
+  portfolio-linked lead; as a therapeutics company Erasca publishes a corporate
+  and investor web presence rather than a developer API surface, so this record
+  captures verified company identity, legal, and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/erasca/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.erasca.com/wp-content/uploads/2021/07/Facebook-about-Erasca.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
+x-sector: precision-oncology
+x-ticker: 'NASDAQ: ERAS'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Precision Oncology
+- Cancer Therapeutics
+- RAS/MAPK Pathway
+- Clinical Stage
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/erasca-domain-security.yml
+- type: Website
+  url: https://www.erasca.com/
+- type: About
+  url: https://www.erasca.com/about/
+- type: Blog
+  url: https://www.erasca.com/press-releases/
+- type: Support
+  url: https://www.erasca.com/contact/
+- type: PrivacyPolicy
+  url: https://www.erasca.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.erasca.com/terms-of-use/
+- type: Investors
+  url: https://investors.erasca.com/
+- type: Careers
+  url: https://www.erasca.com/open-positions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
